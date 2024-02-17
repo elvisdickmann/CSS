@@ -1,0 +1,128 @@
+/* CABEÇALHO */
+header {
+  background-color: rgb(100, 109, 138);
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between; /*Alinhamento horizontal */
+  align-items: center; /*Alinhamento vertical*/
+  flex-direction: column;
+  padding: 20px;
+}
+
+header h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  border: solid 1px rgb(237, 229, 229);
+  padding: 15px;
+  transition: border-color 0.7s, background-color 0.5s;
+}
+
+header a:hover {
+  border-color: white;
+  background-color: rgb(54, 51, 51);
+}
+
+/* BANNER */
+.banner {
+  background: linear-gradient(
+    to bottom,
+    #e0f3fa 0%,
+    #b8e2f6 22%,
+    #b8e2f6 22%,
+    #d8f0fc 50%,
+    #b6dffd 100%
+  );
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  flex-direction: column;
+}
+.banner h1 {
+  color: black;
+  font-size: 36px;
+  text-align: center;
+}
+
+.banner p {
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+
+.banner img {
+  display: none;
+}
+
+.banner div {
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* CARACTERISTICAS (main) */
+.caracteristicas {
+  margin-top: 50px;
+}
+
+.caracteristicas ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caracteristicas li {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.caracteristicas i {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 20px;
+}
+.caracteristicas h1 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Sobre */
+.sobre {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.sobre div {
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.sobre img {
+  width: auto;
+  padding-left: 5%;
+}
+
+.sobre h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.sobre p {
+  margin-top: 20px;
+  line-height: 24px;
+  text-indent: 20px;
+  text-align: justify;
+}
