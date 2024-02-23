@@ -1,0 +1,197 @@
+/* ENDERECO */
+.endereco {
+    background-color: #391F14;
+    color: rgba(255, 255, 255, 0.657);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.3rem;
+}
+
+.endereco p {
+    font-size: 11px;
+}
+
+/* CABEÇALHO */
+header {
+    color: white;
+    text-align: center;
+    background-color: #391F14;
+    padding: 2rem 0;
+    border-bottom: solid 1px #A85432;
+}
+
+header h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+header nav {
+    width: 100%;
+    padding: 1rem 0;
+}
+header nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+  
+}
+
+header nav a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #A85432;
+}
+
+
+/* BANNER */
+.banner {
+    background-color: #391F14;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.banner div {
+    width: 500px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.banner div h1 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    display: block;
+}
+
+.banner div p {
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
+    word-spacing: 2px;
+
+}
+
+.banner img {
+    display: none;
+}
+
+.banner div button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #A85432;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Sobre */
+.sobre {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.sobre div {
+    text-align: center;
+}
+
+.sobre img {
+    display: none;
+}
+
+.sobre div h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #A85432;
+}
+
+.sobre div p {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+
+.sobre div button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #A85432;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+.carousel {
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.item {
+    text-align: center;
+    width: 94%;
+}
+
+.carousel h1 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #A85432;
+    font-weight: 300;
+}
+
+.item img {
+    border: 1px solid #A85432;
+    display: block;
+}
+
+.item h2 {
+    font-size: 20px;
+    color: #A85432;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #391F14;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font: 12px;
+}

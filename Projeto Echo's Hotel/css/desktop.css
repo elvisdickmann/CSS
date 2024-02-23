@@ -12,6 +12,7 @@
 .endereco p {
   font-size: 14px;
   margin-top: -7px;
+  color: rgba(255, 255, 255, 0.657);
 }
 
 /* CABEÇALHO */
@@ -30,7 +31,7 @@ header h1 {
   font-size: 30px;
   margin-bottom: 10x;
   margin-top: -10px;
-  font-weight: 300;
+  font-weight: 800;
 }
 
 header nav a {
@@ -58,6 +59,7 @@ header nav a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   align-items: center;
+  padding: 1.5rem;
 }
 
 .banner div {
@@ -67,7 +69,7 @@ header nav a:hover {
 
 .banner div h1 {
   color: white;
-  font-size: 28px;
+  font-size: 23px;
   margin-bottom: 40px;
   line-height: 24px;
   display: block;
@@ -87,15 +89,21 @@ header nav a:hover {
 }
 
 .banner div button {
-  width: 140px;
+  width: 200px;
   height: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   background-color: #A85432;
   color: white;
   border: none;
   margin-top: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
 }
+
 
 /* MAIN */
 main {
@@ -135,24 +143,34 @@ main {
 }
 
 .sobre div button {
-  width: 140px;
+  width: 200px;
   height: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   background-color: #A85432;
   color: white;
   border: none;
   margin-top: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
 }
 
 
 /* CONTEÚDO PRINCIPAL */
-.items {
-  display: flex;
-  flex-direction: column;
+.carousel {
+  overflow: hidden;
+  width: 99.9%;
 }
 
-.items h1 {
+.item{
+  text-align: center;
+  width: 94%;
+}
+
+.carousel h1 {
   font-size: 32px;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -165,12 +183,12 @@ main {
   text-align: center;
 }
 
-.item-img img {
+.item img {
   border: 1px solid #A85432;
   display: block;
 }
 
-.item-img h2 {
+.item h2 {
   font-size: 20px;
   color: #A85432;
   margin-top: 10px;

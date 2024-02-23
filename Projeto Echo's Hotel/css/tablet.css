@@ -12,6 +12,7 @@
 .endereco p {
     font-size: 14px;
     margin-top: -7px;
+    color: rgba(255, 255, 255, 0.657);
 }
 
 /* CABEÇALHO */
@@ -30,7 +31,7 @@ header h1 {
     font-size: 30px;
     margin-bottom: 10x;
     margin-top: -10px;
-    font-weight: 300;
+    font-weight: 800;
 }
 
 header nav a {
@@ -55,7 +56,7 @@ header nav a:hover {
     background-color: #391F14;
     display: flex;
     justify-content: center;
-   padding: 20px;
+    padding: 20px;
     align-items: center;
 }
 
@@ -74,7 +75,7 @@ header nav a:hover {
     line-height: 24px;
     display: block;
     text-align: center;
-   
+
 }
 
 .banner div p {
@@ -94,13 +95,13 @@ header nav a:hover {
 .banner div button {
     width: 140px;
     height: 50px;
-  
+    border-radius: 5px;
     font-size: 14px;
     background-color: #A85432;
     color: white;
     border: none;
     margin-top: 30px;
-    
+
 }
 
 /* MAIN */
@@ -140,7 +141,7 @@ main {
     margin-bottom: 20px;
     text-align: center;
     line-height: 24px;
-    font-weight: 100;
+
 
 }
 
@@ -153,17 +154,16 @@ main {
     color: white;
     border: none;
     margin-top: 30px;
+    border-radius: 5px;
 }
-
 
 /* CONTEÚDO PRINCIPAL */
-.items {
-    display: flex;
-    flex-direction: column;
-    width: 700px;
+.item {
+    width: 94%;
+    text-align: center;
 }
 
-.items h1 {
+.carousel h1 {
     font-size: 32px;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -171,17 +171,12 @@ main {
     font-weight: 300;
 }
 
-.item-img {
-    width: 360px;
-    text-align: center;
-}
-
-.item-img img {
+.item img {
     border: 1px solid #A85432;
     display: block;
 }
 
-.item-img h2 {
+.item h2 {
     font-size: 20px;
     color: #A85432;
     margin-top: 10px;
