@@ -1,0 +1,151 @@
+/* TOPO */
+.topo1{
+    display:flex;
+    justify-content: space-between;
+}
+.topo1 img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+}
+.topo1 input[type="text"]{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border:solid 1px #999;
+    border-right: none;
+    padding: 10px;
+    font-size: 13px;
+    width: 400px;
+    text-align: center;
+}
+.topo1 input[type="button"]{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 11px;
+    border: solid 1px #999;
+    border-left: none;
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+    color: white;
+    font-size: 13px;
+}
+.topo1 form {
+    margin-top: 40px;
+    margin-right: 20px;   
+}
+
+.topo2 {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+    margin-top: 45px;
+}
+.topo2 a {
+    display: inline-block;
+    padding: 35px;
+    color: white;
+    text-decoration: none;
+}
+.topo2 a:hover {
+    background-color: rgba(0, 0, 0, 0.252);
+}
+
+/* BANNER */
+.banner {
+    height: 700px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.banner p {
+    font-size: 14px;
+    width: 600px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 20px;
+    line-height: 28px;
+
+
+}
+.img_banner_index {
+    background-image: url(imagens/banners/3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    width: 1150px;
+    margin: 0 auto;
+}
+.produtos img {
+    width: 200px;
+}
+.produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.produtos li {
+    text-align: center;
+    border: solid 1px #e8e8e8;
+    margin-left:10px;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.produtos p:nth-child(2) {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.produtos button{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    padding: 10px;
+    color: rgb(14, 14, 14);
+    border-radius: 8px;
+    border: solid 1px #b9b0b0;
+    background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%);
+}
+.produtos li:hover {
+    box-shadow: 0px 0px 10px #dbdbdb;
+}
+
+.produtos h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+/* CLASSE ZOOM */
+.zoom {
+    display:inline-block;
+    position: relative;
+}
+    
+.zoom img {
+    display: block;
+}
+
+
+/* RODAPÉ */
+
+footer{
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
