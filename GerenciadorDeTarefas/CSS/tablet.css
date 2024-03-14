@@ -1,0 +1,130 @@
+/* BODY */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* TOPO */
+header {
+    background: #1B2E35;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+header h1 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 30px;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-forms {
+
+    width: 40%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.container-imagem {
+    width: 60%;
+
+}
+
+.div-imagem {
+    padding: 1rem;
+    width: 400px;
+    max-width: 100%;
+}
+
+.div-imagem img {
+    width: 100%;
+}
+
+/* LOGIN */
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.login h1 {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: #1B2E35;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.394);
+
+
+}
+
+.login input[type=button] {
+    background-color: #1B2E35;
+    color: white;
+    padding: 0.5rem;
+    width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* CADASTRO */
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+.cadastro h1 {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: #1B2E35;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cadastro input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.394);
+
+}
+
+.cadastro input[type=button] {
+    background-color: #1B2E35;
+    color: white;
+    padding: 0.5rem;
+    width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* RODAPÉ */
+footer {
+    background: #1B2E35;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
